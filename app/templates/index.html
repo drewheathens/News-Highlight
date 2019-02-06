@@ -1,0 +1,35 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro %}
+
+{% block content%}
+<div class="jumbotron">
+  <div class="container-fluid">
+      <div class="row" >
+          <div class="col-md-12 heading" style="background-image: url('/static/news-banner.jpeg');" id="top">
+              <h1>News Highlights</h1>
+          </div>
+      </div>
+          <div class="col-md-3 categories">
+              <h2 style="padding-bottom:20px; text-decoration: underline;">General News</h2>
+          </div>
+          {{macro.displaySourceList(general)}}
+          <hr>
+          <div class="col-md-3 categories" id="entertainment">
+              <h3 style="padding-bottom:20px; text-decoration: underline;">Entertainment News</h3>
+          </div>
+          {{macro.displaySourceList(entertainment)}}
+          <hr>
+          <div class="col-md-3 categories" id="technology">
+              <h4 style="padding-bottom:20px; text-decoration: underline;">Technology News</h4
+          </div>
+          {{macro.displaySourceList(technology)}}
+          <hr>
+          <div class="col-md-3 categories" id="sports">
+              <h5 style="padding-bottom:20px; text-decoration: underline;">Sports News</h5>
+          </div>
+          {{macro.displaySourceList(sports)}}
+
+      </div>
+   </div>
+</div>
+{% endblock%}

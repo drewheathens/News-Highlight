@@ -1,0 +1,109 @@
+#navMain {
+    font-family: 'Anton', sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+.middle {
+  margin: 0 auto;
+  text-align: left;
+}
+.container {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.heading {
+    text-align: left;
+    font-family: 'Allura';
+    background-color: #222;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-size: 70px;
+    word-wrap: break-word;
+    color: white;
+}
+
+.categories {
+    text-align: left;
+    margin-top: 2rem;
+}
+.categories h2{
+    font-family: 'Anton', sans-serif;
+}
+.single-source {
+    box-shadow: 2px 4px 12px 2px #DCDCDC;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.source-name {
+    text-align: right;
+}
+
+.source-details {
+    border-left: 1px solid rgba(88, 88, 88, 0.548)
+}
+
+.articles-details img {
+    max-width: 100%;
+}
+
+.articles-details {
+    box-shadow: 2px 4px 12px 2px #DCDCDC;
+    margin: 1rem;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.words {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.words p{
+    font-family: 'Mallanna';
+}
+img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.row {
+  text-align: left;
+    /* display: flex;
+    justify-content: left; */
+}
+.small{
+    margin-bottom: 0
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    word-wrap: break-word;
+    font-style: oblique;
+}
+h4{
+    font-family: 'Anton', sans-serif;
+    font-style: oblique;
+}
+p{
+    word-wrap: break-word;
+
+}
+.heading #search{
+    margin-top: 25rem;
+}
+h5{
+  font-family: sans-serif;
+  font-style: oblique;
+}
