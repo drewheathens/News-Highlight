@@ -25,7 +25,15 @@ App that enables user view articles, user can click on article to read more from
  -flask-script
 
 ### USAGE
-    on terminal run:
+     on terminal run:
+    - python3.6 -m venv --without-pip virtual
+    - source virtual/bin/activate
+    - curl https://bootstrap.pypa.io/get-pip.py | python
+    - pip install flask
+    - pip install flask-bootstrap
+    - pip install flask-script
+    - chmod a+x start.sh
+
     ./start.sh
 
 

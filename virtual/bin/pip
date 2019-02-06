@@ -1,4 +1,4 @@
-#!/home/evans/Desktop/core/python/News-Highlights/virtual/bin/python
+#!/home/evans/Desktop/core/python/News-Highlight/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
