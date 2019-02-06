@@ -6,6 +6,11 @@ App that enables user view articles, user can click on article to read more from
 
 ### BDD
 
+    |Behaviour|Input|output|
+|---------|-----|------|
+|Display news sources & categories|click on preferred source or category|Display more on clicked link|  
+
+
 ### INSTALLATION
  your terminal git clone https://github.com/drewheathens/News-Highlight.git
 
@@ -18,10 +23,12 @@ App that enables user view articles, user can click on article to read more from
 
  Dependencies:
  -flask-bootstrap
+ -flask-script
 
 ### USAGE
     on terminal run:
-    python3.6 run.py
+    ./start.sh
+
 
 ### AUTHORS
 
