@@ -1,7 +1,5 @@
-#!/usr/bin/env python3.6
 import unittest
 from app.models import Articles
-# Articles = news_articles.Articles
 
 
 import unittest
@@ -27,4 +25,3 @@ class TestArticles(unittest.TestCase):
         self.assertEquals(self.new_article.url,'https://google.com')
         self.assertEquals(self.new_article.urlToImage,'https://google.com/images')
         self.assertEquals(self.new_article.publishedAt,'2018-05-12T13:31:03Z')
-        

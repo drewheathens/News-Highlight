@@ -15,7 +15,7 @@ def create_app(config_name):
 
     # Setting up Configurations
     app.config.from_object(config_options[config_name])
-    # app.config.from_pyfile('config.py')
+
 
     # Registering the blueprint
     from .main import main as main_blueprint
@@ -26,9 +26,5 @@ def create_app(config_name):
     configure_request(app)
 
     # Initializing Flask Extension
-    # bootstrap = Bootstrap(app)
-
-    # TODO: Will add the view
-    # from app import views
 
     return app
