@@ -1,4 +1,3 @@
-# from app import app
 import urllib.request
 import json
 from .models import Source
@@ -30,7 +29,6 @@ def get_sources(category):
     with urllib.request.urlopen(get_news_url) as url:
         get_news_data = url.read()
         get_news_response = json.loads(get_news_data)
-        # print(get_news_response)
         # get_news_response is now a dictionary because of the json.loads()
 
         source_results = None
@@ -70,14 +68,10 @@ def get_articles(id):
     """
     Function that gets the json response to our url request
     """
-    get_source_news_url = source_url.format(
-        id, api_key)
+    get_source_news_url = source_url.format(id, api_key)
     with urllib.request.urlopen(get_source_news_url) as url:
         get_news_data = url.read()
         get_news_response = json.loads(get_news_data)
-        # print(get_news_response)
-        # get_news_response is now a dictionary because of the json.loads()
-
         news_results = None
 
         if get_news_response['articles']:
@@ -89,9 +83,6 @@ def get_articles(id):
 
 def process_articles(articles_list):
     """
-    We now want to process the dictionary and
-    output a list of objects - news_results.
-
     We process results will transform our dictionary into a list of objects.
     """
     news_results = []
